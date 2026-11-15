@@ -1,0 +1,43 @@
+@import "tailwindcss";
+
+@layer base {
+  :root {
+    --font-sans: 'Inter', system-ui, -apple-system, sans-serif;
+  }
+
+  /* 100% Bright, Clean Light Theme Architecture:
+     Palette:
+       1. Emerald Green: #059669 (primary action/success/approvals)
+       2. Warm Orange:   #ea580c / #f97316 (vendor metrics/alerts/badges)
+       3. Soft Lavender: #8b5cf6 / #a78bfa / #ede9fe (queries/tickets/subtle accents)
+       4. Coral:         #f43f5e / #fb7185 (rejections/failed/critical highlights)
+     Canvas & Surfaces:
+       App Background:   #f8fafc (crisp ultra-clean slate-50)
+       Sidebar Background:#ffffff (clean white with soft emerald borders)
+       Card Background:  #ffffff (clean white with soft slate-200/60 borders & subtle shadows)
+  */
+
+  html, body {
+    background-color: #f8fafc;
+    color: #1e293b;
+    font-family: var(--font-sans);
+    overflow-x: hidden;
+    min-height: 100vh;
+  }
+}
+
+/* Bright Clean Scrollbars */
+::-webkit-scrollbar {
+  width: 6px;
+  height: 6px;
+}
+::-webkit-scrollbar-track {
+  background: #f1f5f9;
+}
+::-webkit-scrollbar-thumb {
+  background: #cbd5e1;
+  border-radius: 4px;
+}
+::-webkit-scrollbar-thumb:hover {
+  background: #94a3b8;
+}

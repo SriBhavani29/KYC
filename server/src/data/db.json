@@ -1,0 +1,1209 @@
+{
+  "users": [
+    {
+      "id": "USR-SA-01",
+      "name": "Rajesh Sharma (Admin)",
+      "email": "admin@kycops.enterprise",
+      "password": "admin",
+      "role": "Super Admin",
+      "team": "Executive",
+      "phone": "9876543210",
+      "avatar": "https://images.unsplash.com/photo-1534528741775-53994a69daeb?w=150",
+      "isAvailable": true,
+      "activeLoad": 0,
+      "createdAt": "2026-11-11T05:58:39.614Z"
+    },
+    {
+      "id": "USR-TL-KYC",
+      "name": "Ananya Deshmukh (TL KYC)",
+      "email": "tl.kyc@kycops.enterprise",
+      "password": "password",
+      "role": "KYC TL",
+      "team": "KYC Team",
+      "phone": "9823456789",
+      "avatar": "https://images.unsplash.com/photo-1573496359142-b8d87734a5a2?w=150",
+      "isAvailable": true,
+      "activeLoad": 1,
+      "createdAt": "2026-11-11T05:58:39.614Z"
+    },
+    {
+      "id": "USR-AG-KYC1",
+      "name": "Vikram Verma",
+      "email": "vikram.kyc@kycops.enterprise",
+      "password": "password",
+      "role": "KYC Agent",
+      "team": "KYC Team",
+      "phone": "9811223344",
+      "avatar": "https://images.unsplash.com/photo-1507003211169-0a1dd7228f2d?w=150",
+      "isAvailable": true,
+      "activeLoad": 3,
+      "createdAt": "2026-11-11T05:58:39.614Z"
+    },
+    {
+      "id": "USR-AG-KYC2",
+      "name": "Priya Sundaram",
+      "email": "priya.kyc@kycops.enterprise",
+      "password": "password",
+      "role": "KYC Agent",
+      "team": "KYC Team",
+      "phone": "9845112233",
+      "avatar": "https://images.unsplash.com/photo-1544005313-94ddf0286df2?w=150",
+      "isAvailable": true,
+      "activeLoad": 2,
+      "createdAt": "2026-11-11T05:58:39.614Z"
+    },
+    {
+      "id": "USR-TL-PAY",
+      "name": "Suresh Menon (TL Payments)",
+      "email": "tl.pay@kycops.enterprise",
+      "password": "password",
+      "role": "Payments TL",
+      "team": "Payments Team",
+      "phone": "9900112233",
+      "avatar": "https://images.unsplash.com/photo-1500648767791-00dcc994a43e?w=150",
+      "isAvailable": true,
+      "activeLoad": 1,
+      "createdAt": "2026-11-11T05:58:39.614Z"
+    },
+    {
+      "id": "USR-AG-PAY1",
+      "name": "Neha Kapoor",
+      "email": "neha.pay@kycops.enterprise",
+      "password": "password",
+      "role": "Payments Agent",
+      "team": "Payments Team",
+      "phone": "9988776655",
+      "avatar": "https://images.unsplash.com/photo-1494790108377-be9c29b29330?w=150",
+      "isAvailable": true,
+      "activeLoad": 4,
+      "createdAt": "2026-11-11T05:58:39.614Z"
+    },
+    {
+      "id": "USR-TL-QRY",
+      "name": "Kavita Patel (TL Queries)",
+      "email": "tl.query@kycops.enterprise",
+      "password": "password",
+      "role": "Queries TL",
+      "team": "Queries Team",
+      "phone": "9765432109",
+      "avatar": "https://images.unsplash.com/photo-1580489944761-15a19d654956?w=150",
+      "isAvailable": true,
+      "activeLoad": 1,
+      "createdAt": "2026-11-11T05:58:39.614Z"
+    },
+    {
+      "id": "USR-AG-QRY1",
+      "name": "Rohan Joshi",
+      "email": "rohan.query@kycops.enterprise",
+      "password": "password",
+      "role": "Queries Agent",
+      "team": "Queries Team",
+      "phone": "9123456780",
+      "avatar": "https://images.unsplash.com/photo-1519085360753-af0119f7cbe7?w=150",
+      "isAvailable": true,
+      "activeLoad": 2,
+      "createdAt": "2026-11-11T05:58:39.614Z"
+    }
+  ],
+  "kycRecords": [
+    {
+      "id": "KYC-2026-1001",
+      "applicationNo": "APP-VND-8891",
+      "category": "Vendor",
+      "fullName": "Aarav Agro Fresh Ltd (Aditya Mehta)",
+      "businessName": "Aarav Agro Fresh",
+      "email": "contact@aaravagro.com",
+      "mobile": "9822334455",
+      "bankAccountNo": "918273645012",
+      "ifscCode": "HDFC0001234",
+      "bankName": "HDFC Bank",
+      "status": "Approved",
+      "assignedTo": "USR-TL-PAY",
+      "assignedName": "Suresh Menon (TL Payments)",
+      "rejectionReason": null,
+      "reviewedAt": "2026-11-12T12:17:16.752Z",
+      "reviewedBy": "USR-TL-KYC",
+      "submittedAt": "2026-11-09T09:30:00Z",
+      "documents": [
+        {
+          "type": "PAN Card",
+          "docNo": "ABCDE1234F",
+          "fileUrl": "https://images.unsplash.com/photo-1618005182384-a83a8bd57fbe?w=800",
+          "verified": true
+        },
+        {
+          "type": "GST Certificate",
+          "docNo": "27AABCU9603R1ZM",
+          "fileUrl": "https://images.unsplash.com/photo-1554224155-8d04cb21cd6c?w=800",
+          "verified": true
+        },
+        {
+          "type": "Bank Passbook / Cancelled Cheque",
+          "docNo": "CHQ-990812",
+          "fileUrl": "https://images.unsplash.com/photo-1554224154-26032ffc0d07?w=800",
+          "verified": true
+        }
+      ],
+      "address": "Shop 14, APMC Market, Vashi, Navi Mumbai, MH 400703",
+      "paymentProfile": {
+        "vendorCycle": "Cycle 1 (1st-15th)",
+        "fee": 1000
+      },
+      "activityHistory": [
+        {
+          "action": "APPROVED",
+          "actorName": "Suresh Menon (TL Payments)",
+          "actorRole": "KYC Team",
+          "timestamp": "2026-11-12T12:17:16.752Z",
+          "details": "Application approved."
+        },
+        {
+          "action": "SUBMITTED",
+          "actorName": "Aarav Agro Fresh Ltd (Aditya Mehta)",
+          "actorRole": "Applicant",
+          "timestamp": "2026-11-09T09:30:00Z",
+          "details": "Application submitted."
+        }
+      ]
+    },
+    {
+      "id": "KYC-2026-1002",
+      "applicationNo": "APP-CST-4412",
+      "category": "Customer",
+      "fullName": "Sunita Mehra",
+      "businessName": "N/A (Individual)",
+      "email": "sunita.mehra@gmail.com",
+      "mobile": "9871122334",
+      "bankAccountNo": "10982345671",
+      "ifscCode": "SBIN0000691",
+      "bankName": "State Bank of India",
+      "status": "Approved",
+      "assignedTo": "USR-AG-KYC2",
+      "assignedName": "Priya Sundaram",
+      "rejectionReason": null,
+      "reviewedAt": "2026-11-10T14:15:00Z",
+      "reviewedBy": "USR-AG-KYC2",
+      "submittedAt": "2026-11-08T11:20:00Z",
+      "documents": [
+        {
+          "type": "Aadhaar Card",
+          "docNo": "5421-9876-1234",
+          "fileUrl": "https://images.unsplash.com/photo-1618005182384-a83a8bd57fbe?w=800",
+          "verified": true
+        },
+        {
+          "type": "PAN Card",
+          "docNo": "BQWPM9912K",
+          "fileUrl": "https://images.unsplash.com/photo-1554224155-8d04cb21cd6c?w=800",
+          "verified": true
+        }
+      ],
+      "address": "Flat 402, Green Palms, Powai, Mumbai, MH 400076",
+      "paymentProfile": {
+        "plan": "Premium Gold Membership",
+        "fee": 499
+      },
+      "activityHistory": [
+        {
+          "action": "APPROVED",
+          "actorName": "Priya Sundaram",
+          "actorRole": "KYC Team",
+          "timestamp": "2026-11-10T14:15:00Z",
+          "details": "Application approved."
+        },
+        {
+          "action": "SUBMITTED",
+          "actorName": "Sunita Mehra",
+          "actorRole": "Applicant",
+          "timestamp": "2026-11-08T11:20:00Z",
+          "details": "Application submitted."
+        }
+      ]
+    },
+    {
+      "id": "KYC-2026-1003",
+      "applicationNo": "APP-AGT-2041",
+      "category": "Agent",
+      "fullName": "Mohd Tariq Khan",
+      "businessName": "Tariq Financial Services",
+      "email": "tariq.agent@connect.in",
+      "mobile": "8877665544",
+      "bankAccountNo": "50100234567890",
+      "ifscCode": "ICIC0000045",
+      "bankName": "ICICI Bank",
+      "status": "Approved",
+      "assignedTo": "USR-AG-KYC1",
+      "assignedName": "Vikram Verma",
+      "rejectionReason": null,
+      "reviewedAt": "2026-11-13T05:06:18.948Z",
+      "reviewedBy": "USR-SA-01",
+      "submittedAt": "2026-11-13T05:03:41.490Z",
+      "documents": [
+        {
+          "type": "Aadhaar Card",
+          "docNo": "7823-1122-3344",
+          "fileUrl": "https://images.unsplash.com/photo-1618005182384-a83a8bd57fbe?w=800",
+          "verified": true
+        },
+        {
+          "type": "PAN Card",
+          "docNo": "ALIPK8721M",
+          "fileUrl": "https://images.unsplash.com/photo-1554224154-26032ffc0d07?w=800",
+          "verified": true
+        }
+      ],
+      "address": "22/B MG Road, Civil Lines, Kanpur, UP 208001",
+      "paymentProfile": {
+        "plan": "Monthly Agent Retainer",
+        "fee": 3500
+      },
+      "activityHistory": [
+        {
+          "action": "APPROVED",
+          "actorName": "Rajesh Sharma (Admin)",
+          "actorRole": "Super Admin",
+          "timestamp": "2026-11-13T05:06:18.948Z",
+          "details": "Application approved by Rajesh Sharma (Admin) (Super Admin). All documents verified."
+        },
+        {
+          "action": "REJECTED",
+          "actorName": "Suresh Menon (TL Payments)",
+          "actorRole": "Payments TL",
+          "timestamp": "2026-11-13T05:03:50.986Z",
+          "details": "Application rejected by Suresh Menon (TL Payments). Reason: Document is blurred or illegible (Unreadable text)"
+        },
+        {
+          "action": "RESUBMITTED",
+          "actorName": "Suresh Menon (TL Payments)",
+          "actorRole": "Payments TL",
+          "timestamp": "2026-11-13T05:03:41.490Z",
+          "details": "Application resubmitted for re-verification. (Previous Rejection: \"Document is blurred or illegible (Unreadable text)\")"
+        },
+        {
+          "action": "REJECTED",
+          "actorName": "Suresh Menon (TL Payments)",
+          "actorRole": "Payments TL",
+          "timestamp": "2026-11-13T05:03:25.166Z",
+          "details": "Application rejected by Suresh Menon (TL Payments). Reason: Document is blurred or illegible (Unreadable text)"
+        },
+        {
+          "action": "SUBMITTED",
+          "actorName": "Mohd Tariq Khan",
+          "actorRole": "Applicant",
+          "timestamp": "2026-11-10T16:00:00Z",
+          "details": "Application submitted."
+        }
+      ]
+    },
+    {
+      "id": "KYC-2026-1004",
+      "applicationNo": "APP-MGR-3190",
+      "category": "Manager",
+      "fullName": "Deepak Singhal",
+      "businessName": "Regional Ops Hub",
+      "email": "deepak.manager@kycops.internal",
+      "mobile": "7766554433",
+      "bankAccountNo": "62451009876",
+      "ifscCode": "PUNB0123400",
+      "bankName": "Punjab National Bank",
+      "status": "Approved",
+      "assignedTo": "USR-TL-KYC",
+      "assignedName": "Ananya Deshmukh (TL KYC)",
+      "rejectionReason": null,
+      "reviewedAt": "2026-11-09T18:00:00Z",
+      "reviewedBy": "USR-TL-KYC",
+      "submittedAt": "2026-11-07T10:00:00Z",
+      "documents": [
+        {
+          "type": "PAN Card",
+          "docNo": "BZXPS4410K",
+          "fileUrl": "https://images.unsplash.com/photo-1554224155-8d04cb21cd6c?w=800",
+          "verified": true
+        },
+        {
+          "type": "Proof of Address",
+          "docNo": "ELEC-887123",
+          "fileUrl": "https://images.unsplash.com/photo-1554224154-26032ffc0d07?w=800",
+          "verified": true
+        }
+      ],
+      "address": "Plot 88, Sector 18, Gurugram, HR 122015",
+      "paymentProfile": {
+        "plan": "Manager Payroll & Compliance",
+        "fee": 45000
+      },
+      "activityHistory": [
+        {
+          "action": "APPROVED",
+          "actorName": "Ananya Deshmukh (TL KYC)",
+          "actorRole": "KYC Team",
+          "timestamp": "2026-11-09T18:00:00Z",
+          "details": "Application approved."
+        },
+        {
+          "action": "SUBMITTED",
+          "actorName": "Deepak Singhal",
+          "actorRole": "Applicant",
+          "timestamp": "2026-11-07T10:00:00Z",
+          "details": "Application submitted."
+        }
+      ]
+    },
+    {
+      "id": "KYC-2026-1005",
+      "applicationNo": "APP-DEL-9082",
+      "category": "Delivery Partner",
+      "fullName": "Ganesh Shinde",
+      "businessName": "Express Logistics fleet",
+      "email": "ganesh.delivery@gmail.com",
+      "mobile": "9123456789",
+      "bankAccountNo": "331002938475",
+      "ifscCode": "BARB0POWAIX",
+      "bankName": "Bank of Baroda",
+      "status": "Rejected",
+      "assignedTo": "USR-TL-PAY",
+      "assignedName": "Suresh Menon (TL Payments)",
+      "rejectionReason": "Driving License copy is blurry and expiry date is not clearly legible. Please upload a high-resolution scan.",
+      "reviewedAt": "2026-11-10T12:00:00Z",
+      "reviewedBy": "USR-AG-KYC2",
+      "submittedAt": "2026-11-09T08:15:00Z",
+      "documents": [
+        {
+          "type": "Driving License",
+          "docNo": "MH-03-20180029",
+          "fileUrl": "https://images.unsplash.com/photo-1618005182384-a83a8bd57fbe?w=800",
+          "verified": false
+        },
+        {
+          "type": "Aadhaar Card",
+          "docNo": "9988-7766-5544",
+          "fileUrl": "https://images.unsplash.com/photo-1554224155-8d04cb21cd6c?w=800",
+          "verified": true
+        }
+      ],
+      "address": "Chawl No. 4, Kurla West, Mumbai, MH 400070",
+      "paymentProfile": {
+        "plan": "Weekly Payout & Mileage Tracking",
+        "fee": 6500
+      },
+      "activityHistory": [
+        {
+          "action": "REJECTED",
+          "actorName": "Suresh Menon (TL Payments)",
+          "actorRole": "KYC Team",
+          "timestamp": "2026-11-10T12:00:00Z",
+          "details": "Rejection reason: Driving License copy is blurry and expiry date is not clearly legible. Please upload a high-resolution scan."
+        },
+        {
+          "action": "SUBMITTED",
+          "actorName": "Ganesh Shinde",
+          "actorRole": "Applicant",
+          "timestamp": "2026-11-09T08:15:00Z",
+          "details": "Application submitted."
+        }
+      ]
+    },
+    {
+      "id": "KYC-2026-1006",
+      "applicationNo": "APP-TCH-5510",
+      "category": "Technician",
+      "fullName": "Arun Balakrishnan",
+      "businessName": "Precision Tech Services",
+      "email": "arun.tech@balakrishnan.me",
+      "mobile": "6382109876",
+      "bankAccountNo": "88123450912",
+      "ifscCode": "UTIB0000125",
+      "bankName": "Axis Bank",
+      "status": "Approved",
+      "assignedTo": "USR-AG-KYC1",
+      "assignedName": "Vikram Verma",
+      "rejectionReason": null,
+      "reviewedAt": "2026-11-11T06:54:58.196Z",
+      "reviewedBy": "USR-SA-01",
+      "submittedAt": "2026-11-11T09:00:00Z",
+      "documents": [
+        {
+          "type": "Technician Trade License / Cert",
+          "docNo": "ITI-ELE-2021-99",
+          "fileUrl": "https://images.unsplash.com/photo-1554224155-8d04cb21cd6c?w=800",
+          "verified": true
+        },
+        {
+          "type": "Aadhaar Card",
+          "docNo": "3322-1144-5566",
+          "fileUrl": "https://images.unsplash.com/photo-1618005182384-a83a8bd57fbe?w=800",
+          "verified": true
+        }
+      ],
+      "address": "15 Anna Nagar, Main Road, Chennai, TN 600040",
+      "paymentProfile": {
+        "plan": "Monthly Service & Support Retainer",
+        "fee": 12000
+      },
+      "activityHistory": [
+        {
+          "action": "APPROVED",
+          "actorName": "Vikram Verma",
+          "actorRole": "KYC Team",
+          "timestamp": "2026-11-11T06:54:58.196Z",
+          "details": "Application approved."
+        },
+        {
+          "action": "SUBMITTED",
+          "actorName": "Arun Balakrishnan",
+          "actorRole": "Applicant",
+          "timestamp": "2026-11-11T09:00:00Z",
+          "details": "Application submitted."
+        }
+      ]
+    }
+  ],
+  "payments": [
+    {
+      "id": "PAY-TXN-8949",
+      "category": "Agent",
+      "kycRefId": "KYC-2026-1003",
+      "recipientName": "Tariq Financial Services",
+      "beneficiaryPhone": "8877665544",
+      "bankAccountNo": "50100234567890",
+      "ifscCode": "ICIC0000045",
+      "amount": 3500,
+      "monthlyFee": 3500,
+      "cycle": "Monthly Subscription Cycle",
+      "status": "Paid",
+      "paymentDate": "2026-11-13T05:06:45.935Z",
+      "dueDate": "2026-11-20",
+      "paymentMethod": "Auto-Debit Nach / UPI",
+      "referenceNo": "AUTO-PAY-APP-AGT-2041",
+      "assignedTo": "USR-TL-PAY",
+      "assignedName": "Suresh Menon (TL Payments)",
+      "notes": "asdfg23456"
+    },
+    {
+      "id": "PAY-TXN-6753",
+      "category": "Vendor",
+      "kycRefId": "KYC-2026-1001",
+      "recipientName": "Aarav Agro Fresh",
+      "beneficiaryPhone": "9822334455",
+      "bankAccountNo": "918273645012",
+      "ifscCode": "HDFC0001234",
+      "amount": 500,
+      "monthlyFee": 1000,
+      "cycle": "Cycle 1 (1st-15th Monthly Subscription)",
+      "status": "Paid",
+      "paymentDate": "2026-11-13T05:01:41.393Z",
+      "dueDate": "2026-11-19",
+      "paymentMethod": "Auto-Debit Nach / UPI",
+      "referenceNo": "AUTO-PAY-APP-VND-8891",
+      "assignedTo": "USR-TL-PAY",
+      "assignedName": "Suresh Menon (TL Payments)",
+      "notes": "Ref#12345"
+    },
+    {
+      "id": "PAY-TXN-8197",
+      "category": "Technician",
+      "kycRefId": "KYC-2026-1006",
+      "recipientName": "Precision Tech Services",
+      "beneficiaryPhone": "6382109876",
+      "bankAccountNo": "88123450912",
+      "ifscCode": "UTIB0000125",
+      "amount": 12000,
+      "monthlyFee": 12000,
+      "cycle": "Monthly Subscription Cycle",
+      "status": "Pending",
+      "paymentDate": null,
+      "dueDate": "2026-11-18",
+      "paymentMethod": "Auto-Debit Nach / UPI",
+      "referenceNo": "AUTO-PAY-APP-TCH-5510",
+      "assignedTo": "USR-TL-PAY",
+      "assignedName": "Suresh Menon (TL Payments)",
+      "notes": "Automated handover from Approved KYC APP-TCH-5510 (Arun Balakrishnan)."
+    },
+    {
+      "id": "PAY-TXN-9001",
+      "category": "Vendor",
+      "kycRefId": "KYC-2026-1001",
+      "recipientName": "Aarav Agro Fresh Ltd",
+      "beneficiaryPhone": "9822334455",
+      "bankAccountNo": "918273645012",
+      "ifscCode": "HDFC0001234",
+      "amount": 500,
+      "monthlyFee": 1000,
+      "cycle": "Cycle 1 (Nov 1 - Nov 15, 2026)",
+      "status": "Paid",
+      "paymentDate": "2026-11-05T10:30:00Z",
+      "paymentMethod": "UPI / NetBanking",
+      "referenceNo": "UPI-REF-98129034",
+      "assignedTo": "USR-AG-PAY1",
+      "assignedName": "Neha Kapoor",
+      "notes": "Automated recurring cycle deduction verified."
+    },
+    {
+      "id": "PAY-TXN-9002",
+      "category": "Vendor",
+      "kycRefId": "KYC-2026-1001",
+      "recipientName": "Aarav Agro Fresh Ltd",
+      "beneficiaryPhone": "9822334455",
+      "bankAccountNo": "918273645012",
+      "ifscCode": "HDFC0001234",
+      "amount": 500,
+      "monthlyFee": 1000,
+      "cycle": "Cycle 2 (Nov 16 - Nov 30, 2026)",
+      "status": "Paid",
+      "paymentDate": "2026-11-13T05:01:02.619Z",
+      "dueDate": "2026-11-20",
+      "paymentMethod": "Auto-Debit Nach",
+      "referenceNo": "PEND-CYC2-8821",
+      "assignedTo": "USR-AG-PAY1",
+      "assignedName": "Neha Kapoor",
+      "notes": "sdfg2w34567"
+    },
+    {
+      "id": "PAY-TXN-9003",
+      "category": "Customer",
+      "kycRefId": "KYC-2026-1002",
+      "recipientName": "Sunita Mehra",
+      "beneficiaryPhone": "9871122334",
+      "bankAccountNo": "10982345671",
+      "ifscCode": "SBIN0000691",
+      "amount": 499,
+      "monthlyFee": 499,
+      "cycle": "Monthly Membership (Nov 2026)",
+      "status": "Paid",
+      "paymentDate": "2026-11-10T14:20:00Z",
+      "paymentMethod": "Credit Card (Visa)",
+      "referenceNo": "PG-STRIPE-881920",
+      "assignedTo": "USR-AG-PAY1",
+      "assignedName": "Neha Kapoor",
+      "notes": "Auto-transitioned from approved KYC application."
+    },
+    {
+      "id": "PAY-TXN-9004",
+      "category": "Agent",
+      "kycRefId": "KYC-2026-1003",
+      "recipientName": "Mohd Tariq Khan",
+      "beneficiaryPhone": "8877665544",
+      "bankAccountNo": "50100234567890",
+      "ifscCode": "ICIC0000045",
+      "amount": 3500,
+      "monthlyFee": 3500,
+      "cycle": "Monthly Retainer (Nov 2026)",
+      "status": "Pending",
+      "dueDate": "2026-11-15",
+      "paymentDate": null,
+      "paymentMethod": "Direct NEFT",
+      "referenceNo": "NEFT-INIT-3321",
+      "assignedTo": "USR-TL-PAY",
+      "assignedName": "Suresh Menon (TL Payments)",
+      "notes": "Awaiting KYC clearance before release."
+    },
+    {
+      "id": "PAY-TXN-9005",
+      "category": "Manager",
+      "kycRefId": "KYC-2026-1004",
+      "recipientName": "Deepak Singhal",
+      "beneficiaryPhone": "7766554433",
+      "bankAccountNo": "62451009876",
+      "ifscCode": "PUNB0123400",
+      "amount": 45000,
+      "monthlyFee": 45000,
+      "cycle": "Managerial Compensation (Oct 2026)",
+      "status": "Paid",
+      "paymentDate": "2026-11-01T09:00:00Z",
+      "paymentMethod": "Corporate RTGS",
+      "referenceNo": "RTGS-CORP-992182",
+      "assignedTo": "USR-TL-PAY",
+      "assignedName": "Suresh Menon (TL Payments)",
+      "notes": "Approved and disbursed."
+    },
+    {
+      "id": "PAY-TXN-9006",
+      "category": "Delivery Partner",
+      "kycRefId": "KYC-2026-1005",
+      "recipientName": "Ganesh Shinde",
+      "beneficiaryPhone": "9123456789",
+      "bankAccountNo": "331002938475",
+      "ifscCode": "BARB0POWAIX",
+      "amount": 6500,
+      "monthlyFee": 6500,
+      "cycle": "Weekly Mileage & Deliveries (W1 Nov)",
+      "status": "Failed",
+      "paymentDate": "2026-11-08T11:10:00Z",
+      "paymentMethod": "IMPS",
+      "referenceNo": "IMPS-FL-40019",
+      "assignedTo": "USR-AG-PAY1",
+      "assignedName": "Neha Kapoor",
+      "notes": "Transaction bounced: KYC rejection triggered temporary hold."
+    },
+    {
+      "id": "PAY-TXN-9007",
+      "category": "Technician",
+      "kycRefId": "KYC-2026-1006",
+      "recipientName": "Arun Balakrishnan",
+      "beneficiaryPhone": "6382109876",
+      "bankAccountNo": "88123450912",
+      "ifscCode": "UTIB0000125",
+      "amount": 12000,
+      "monthlyFee": 12000,
+      "cycle": "Monthly Retainer (Nov 2026)",
+      "status": "Pending",
+      "dueDate": "2026-11-18",
+      "paymentDate": null,
+      "paymentMethod": "Bank Transfer",
+      "referenceNo": "PEND-TCH-1200",
+      "assignedTo": "USR-TL-PAY",
+      "assignedName": "Suresh Menon (TL Payments)",
+      "notes": "Scheduled for bi-monthly run."
+    }
+  ],
+  "queries": [
+    {
+      "id": "QRY-AUTO-0987",
+      "ticketNo": "TICK-REJ-2041",
+      "category": "Agent",
+      "applicantName": "Mohd Tariq Khan",
+      "subject": "KYC Rejection Follow-up: APP-AGT-2041",
+      "description": "Application rejected with reason: \"Document is blurred or illegible (Unreadable text)\". Applicant notified via SMS to 8877665544 and Email to tariq.agent@connect.in.",
+      "priority": "High",
+      "status": "Open",
+      "assignedTo": "USR-TL-QRY",
+      "assignedName": "Kavita Patel (TL Queries)",
+      "createdAt": "2026-11-13T05:03:50.986Z",
+      "resolvedAt": null,
+      "messages": [
+        {
+          "sender": "System Bot",
+          "role": "System",
+          "message": "Applicant notification dispatched. Rejection reason recorded: \"Document is blurred or illegible (Unreadable text)\"",
+          "timestamp": "2026-11-13T05:03:50.986Z"
+        }
+      ]
+    },
+    {
+      "id": "QRY-AUTO-5168",
+      "ticketNo": "TICK-REJ-2041",
+      "category": "Agent",
+      "applicantName": "Mohd Tariq Khan",
+      "subject": "KYC Rejection Follow-up: APP-AGT-2041",
+      "description": "Application rejected with reason: \"Document is blurred or illegible (Unreadable text)\". Applicant notified via SMS to 8877665544 and Email to tariq.agent@connect.in.",
+      "priority": "High",
+      "status": "Open",
+      "assignedTo": "USR-TL-QRY",
+      "assignedName": "Kavita Patel (TL Queries)",
+      "createdAt": "2026-11-13T05:03:25.166Z",
+      "resolvedAt": null,
+      "messages": [
+        {
+          "sender": "System Bot",
+          "role": "System",
+          "message": "Applicant notification dispatched. Rejection reason recorded: \"Document is blurred or illegible (Unreadable text)\"",
+          "timestamp": "2026-11-13T05:03:25.166Z"
+        }
+      ]
+    },
+    {
+      "id": "QRY-2026-501",
+      "ticketNo": "TCK-8812",
+      "category": "Vendor",
+      "subject": "Inquiry on Cycle 2 invoice generation for ₹1,000 monthly tier",
+      "userFullName": "Aditya Mehta (Aarav Agro)",
+      "userEmail": "contact@aaravagro.com",
+      "mobile": "9822334455",
+      "priority": "High",
+      "status": "In Progress",
+      "assignedTo": "USR-AG-QRY1",
+      "assignedName": "Rohan Joshi",
+      "createdAt": "2026-11-10T10:00:00Z",
+      "resolvedAt": null,
+      "resolutionTimeMin": null,
+      "messages": [
+        {
+          "sender": "Aditya Mehta",
+          "senderType": "Customer",
+          "message": "Hello, our GST invoice for Cycle 1 is downloaded, but how do we preview upcoming Cycle 2 deductions on the portal?",
+          "time": "2026-11-10T10:00:00Z"
+        },
+        {
+          "sender": "Rohan Joshi",
+          "senderType": "Agent",
+          "message": "Hello Aditya! The Cycle 2 invoice generates automatically on the 16th of each calendar month. We have verified your mandate is active.",
+          "time": "2026-11-10T10:45:00Z"
+        }
+      ]
+    },
+    {
+      "id": "QRY-2026-502",
+      "ticketNo": "TCK-8813",
+      "category": "Customer",
+      "subject": "Aadhaar document verification timeline query",
+      "userFullName": "Sunita Mehra",
+      "userEmail": "sunita.mehra@gmail.com",
+      "mobile": "9871122334",
+      "priority": "Medium",
+      "status": "Resolved",
+      "assignedTo": "USR-TL-QRY",
+      "assignedName": "Kavita Patel (TL Queries)",
+      "createdAt": "2026-11-09T14:00:00Z",
+      "resolvedAt": "2026-11-09T15:20:00Z",
+      "resolutionTimeMin": 80,
+      "messages": [
+        {
+          "sender": "Sunita Mehra",
+          "senderType": "Customer",
+          "message": "Can you please let me know how long the verification takes once documents are uploaded?",
+          "time": "2026-11-09T14:00:00Z"
+        },
+        {
+          "sender": "Kavita Patel",
+          "senderType": "Agent",
+          "message": "Standard KYC turnaround time is within 2 to 4 business hours. Your account has now been approved!",
+          "time": "2026-11-09T15:20:00Z"
+        }
+      ]
+    },
+    {
+      "id": "QRY-2026-503",
+      "ticketNo": "TCK-8814",
+      "category": "Delivery Partner",
+      "subject": "Clarification on rejection reason for Driving License",
+      "userFullName": "Ganesh Shinde",
+      "userEmail": "ganesh.delivery@gmail.com",
+      "mobile": "9123456789",
+      "priority": "Urgent",
+      "status": "Open",
+      "assignedTo": "USR-AG-QRY1",
+      "assignedName": "Rohan Joshi",
+      "createdAt": "2026-11-11T08:30:00Z",
+      "resolvedAt": null,
+      "resolutionTimeMin": null,
+      "messages": [
+        {
+          "sender": "Ganesh Shinde",
+          "senderType": "Customer",
+          "message": "My KYC was marked rejected due to blurry DL. Can I upload an mParivahan digital copy?",
+          "time": "2026-11-11T08:30:00Z"
+        }
+      ]
+    }
+  ],
+  "auditLogs": [
+    {
+      "id": "AUD-1794546405943",
+      "action": "PAYMENT_STATUS_UPDATE",
+      "entity": "PAY-TXN-8949",
+      "performedBy": "Rajesh Sharma (Admin)",
+      "details": "Updated payment PAY-TXN-8949 status to Paid for Tariq Financial Services (₹3500)",
+      "timestamp": "2026-11-13T05:06:45.943Z"
+    },
+    {
+      "id": "AUD-1794546332366",
+      "action": "USER_LOGIN",
+      "entity": "USR-SA-01",
+      "performedBy": "Rajesh Sharma (Admin)",
+      "details": "Logged into Super Admin portal via unified gateway",
+      "timestamp": "2026-11-13T05:05:32.366Z"
+    },
+    {
+      "id": "AUD-1794546221500",
+      "action": "KYC_RESUBMITTED",
+      "entity": "KYC-2026-1003",
+      "performedBy": "Suresh Menon (TL Payments)",
+      "details": "Resubmitted KYC APP-AGT-2041 (Mohd Tariq Khan) for re-verification. Assigned to Vikram Verma.",
+      "timestamp": "2026-11-13T05:03:41.501Z"
+    },
+    {
+      "id": "AUD-1794546101400",
+      "action": "PAYMENT_STATUS_UPDATE",
+      "entity": "PAY-TXN-6753",
+      "performedBy": "Suresh Menon (TL Payments)",
+      "details": "Updated payment PAY-TXN-6753 status to Paid for Aarav Agro Fresh (₹500)",
+      "timestamp": "2026-11-13T05:01:41.400Z"
+    },
+    {
+      "id": "AUD-1794546062624",
+      "action": "PAYMENT_STATUS_UPDATE",
+      "entity": "PAY-TXN-9002",
+      "performedBy": "Suresh Menon (TL Payments)",
+      "details": "Updated payment PAY-TXN-9002 status to Paid for Aarav Agro Fresh Ltd (₹500)",
+      "timestamp": "2026-11-13T05:01:02.624Z"
+    },
+    {
+      "id": "AUD-1794544113724",
+      "action": "USER_LOGIN",
+      "entity": "USR-TL-PAY",
+      "performedBy": "Suresh Menon (TL Payments)",
+      "details": "Logged into Payments Team portal via unified gateway",
+      "timestamp": "2026-11-13T04:28:33.724Z"
+    },
+    {
+      "id": "AUD-1794544087590",
+      "action": "KYC_REASSIGNED",
+      "entity": "KYC-2026-1001",
+      "performedBy": "Ananya Deshmukh (TL KYC)",
+      "details": "Reassigned application APP-VND-8891 to Suresh Menon (TL Payments)",
+      "timestamp": "2026-11-13T04:28:07.590Z"
+    },
+    {
+      "id": "AUD-1794544021261",
+      "action": "KYC_REASSIGNED",
+      "entity": "KYC-2026-1003",
+      "performedBy": "Ananya Deshmukh (TL KYC)",
+      "details": "Reassigned application APP-AGT-2041 to Vikram Verma",
+      "timestamp": "2026-11-13T04:27:01.261Z"
+    },
+    {
+      "id": "AUD-1794543992142",
+      "action": "KYC_REASSIGNED",
+      "entity": "KYC-2026-1003",
+      "performedBy": "Ananya Deshmukh (TL KYC)",
+      "details": "Reassigned application APP-AGT-2041 to Priya Sundaram",
+      "timestamp": "2026-11-13T04:26:32.142Z"
+    },
+    {
+      "id": "AUD-1794543903995",
+      "action": "USER_LOGIN",
+      "entity": "USR-TL-KYC",
+      "performedBy": "Ananya Deshmukh (TL KYC)",
+      "details": "Logged into KYC Team portal via unified gateway",
+      "timestamp": "2026-11-13T04:25:03.995Z"
+    },
+    {
+      "id": "AUD-1794543884817",
+      "action": "USER_LOGIN",
+      "entity": "USR-TL-QRY",
+      "performedBy": "Kavita Patel (TL Queries)",
+      "details": "Logged into Queries Team portal via unified gateway",
+      "timestamp": "2026-11-13T04:24:44.817Z"
+    },
+    {
+      "id": "AUD-1794543839688",
+      "action": "USER_LOGIN",
+      "entity": "USR-TL-PAY",
+      "performedBy": "Suresh Menon (TL Payments)",
+      "details": "Logged into Payments Team portal via unified gateway",
+      "timestamp": "2026-11-13T04:23:59.688Z"
+    },
+    {
+      "id": "AUD-1794543499574",
+      "action": "USER_LOGIN",
+      "entity": "USR-SA-01",
+      "performedBy": "Rajesh Sharma (Admin)",
+      "details": "Logged into Super Admin portal via unified gateway",
+      "timestamp": "2026-11-13T04:18:19.574Z"
+    },
+    {
+      "id": "AUD-1794543390265",
+      "action": "USER_LOGIN",
+      "entity": "USR-TL-KYC",
+      "performedBy": "Ananya Deshmukh (TL KYC)",
+      "details": "Logged into KYC Team portal via unified gateway",
+      "timestamp": "2026-11-13T04:16:30.265Z"
+    },
+    {
+      "id": "AUD-1794479525726",
+      "action": "USER_LOGIN",
+      "entity": "USR-TL-KYC",
+      "performedBy": "Ananya Deshmukh (TL KYC)",
+      "details": "Logged into KYC Team portal via unified gateway",
+      "timestamp": "2026-11-12T10:32:05.726Z"
+    },
+    {
+      "id": "AUD-1794479469233",
+      "action": "KYC_REASSIGNED",
+      "entity": "KYC-2026-1005",
+      "performedBy": "Rajesh Sharma (Admin)",
+      "details": "Reassigned application APP-DEL-9082 to Suresh Menon (TL Payments)",
+      "timestamp": "2026-11-12T10:31:09.233Z"
+    },
+    {
+      "id": "AUD-1794458529233",
+      "action": "USER_LOGIN",
+      "entity": "USR-SA-01",
+      "performedBy": "Rajesh Sharma (Admin)",
+      "details": "Logged into Super Admin portal via unified gateway",
+      "timestamp": "2026-11-12T04:42:09.233Z"
+    },
+    {
+      "id": "AUD-1794398884386",
+      "action": "USER_LOGIN",
+      "entity": "USR-TL-KYC",
+      "performedBy": "Ananya Deshmukh (TL KYC)",
+      "details": "Logged into KYC Team portal via unified gateway",
+      "timestamp": "2026-11-11T12:08:04.386Z"
+    },
+    {
+      "id": "AUD-1794398755932",
+      "action": "USER_LOGIN",
+      "entity": "USR-TL-QRY",
+      "performedBy": "Kavita Patel (TL Queries)",
+      "details": "Logged into Queries Team portal via unified gateway",
+      "timestamp": "2026-11-11T12:05:55.932Z"
+    },
+    {
+      "id": "AUD-1794398755926",
+      "action": "USER_LOGIN",
+      "entity": "USR-TL-PAY",
+      "performedBy": "Suresh Menon (TL Payments)",
+      "details": "Logged into Payments Team portal via unified gateway",
+      "timestamp": "2026-11-11T12:05:55.926Z"
+    },
+    {
+      "id": "AUD-1794398755921",
+      "action": "USER_LOGIN",
+      "entity": "USR-TL-KYC",
+      "performedBy": "Ananya Deshmukh (TL KYC)",
+      "details": "Logged into KYC Team portal via unified gateway",
+      "timestamp": "2026-11-11T12:05:55.921Z"
+    },
+    {
+      "id": "AUD-1794398755907",
+      "action": "USER_LOGIN",
+      "entity": "USR-SA-01",
+      "performedBy": "Rajesh Sharma (Admin)",
+      "details": "Logged into Super Admin portal via unified gateway",
+      "timestamp": "2026-11-11T12:05:55.907Z"
+    },
+    {
+      "id": "AUD-1794397247579",
+      "action": "USER_LOGIN",
+      "entity": "USR-TL-KYC",
+      "performedBy": "Ananya Deshmukh (TL KYC)",
+      "details": "Logged into KYC Team portal via unified gateway",
+      "timestamp": "2026-11-11T11:40:47.579Z"
+    },
+    {
+      "id": "AUD-1794396847187",
+      "action": "USER_LOGIN",
+      "entity": "USR-TL-KYC",
+      "performedBy": "Ananya Deshmukh (TL KYC)",
+      "details": "Logged into KYC Team portal via unified gateway",
+      "timestamp": "2026-11-11T11:34:07.187Z"
+    },
+    {
+      "id": "AUD-1794391161979",
+      "action": "USER_LOGIN",
+      "entity": "USR-TL-KYC",
+      "performedBy": "Ananya Deshmukh (TL KYC)",
+      "details": "Logged into KYC Team portal via unified gateway",
+      "timestamp": "2026-11-11T09:59:21.979Z"
+    },
+    {
+      "id": "AUD-1794391071786",
+      "action": "USER_LOGIN",
+      "entity": "USR-SA-01",
+      "performedBy": "Rajesh Sharma (Admin)",
+      "details": "Logged into Super Admin portal via unified gateway",
+      "timestamp": "2026-11-11T09:57:51.786Z"
+    },
+    {
+      "id": "AUD-1794390943767",
+      "action": "USER_LOGIN",
+      "entity": "USR-TL-QRY",
+      "performedBy": "Kavita Patel (TL Queries)",
+      "details": "Logged into Queries Team portal via unified gateway",
+      "timestamp": "2026-11-11T09:55:43.767Z"
+    },
+    {
+      "id": "AUD-1794390943760",
+      "action": "USER_LOGIN",
+      "entity": "USR-TL-PAY",
+      "performedBy": "Suresh Menon (TL Payments)",
+      "details": "Logged into Payments Team portal via unified gateway",
+      "timestamp": "2026-11-11T09:55:43.760Z"
+    },
+    {
+      "id": "AUD-1794390943752",
+      "action": "USER_LOGIN",
+      "entity": "USR-TL-KYC",
+      "performedBy": "Ananya Deshmukh (TL KYC)",
+      "details": "Logged into KYC Team portal via unified gateway",
+      "timestamp": "2026-11-11T09:55:43.752Z"
+    },
+    {
+      "id": "AUD-1794390943737",
+      "action": "USER_LOGIN",
+      "entity": "USR-SA-01",
+      "performedBy": "Rajesh Sharma (Admin)",
+      "details": "Logged into Super Admin portal via unified gateway",
+      "timestamp": "2026-11-11T09:55:43.737Z"
+    },
+    {
+      "id": "AUD-1794389747961",
+      "action": "USER_LOGIN",
+      "entity": "USR-TL-KYC",
+      "performedBy": "Ananya Deshmukh (TL KYC)",
+      "details": "Logged into KYC Team portal via unified gateway",
+      "timestamp": "2026-11-11T09:35:47.961Z"
+    },
+    {
+      "id": "AUD-1794389687988",
+      "action": "USER_LOGIN",
+      "entity": "USR-SA-01",
+      "performedBy": "Rajesh Sharma (Admin)",
+      "details": "Logged into Super Admin portal via unified gateway",
+      "timestamp": "2026-11-11T09:34:47.988Z"
+    },
+    {
+      "id": "AUD-1794389143743",
+      "action": "USER_LOGIN",
+      "entity": "USR-TL-QRY",
+      "performedBy": "Kavita Patel (TL Queries)",
+      "details": "Logged into Queries Team portal",
+      "timestamp": "2026-11-11T09:25:43.743Z"
+    },
+    {
+      "id": "AUD-1794388959619",
+      "action": "USER_LOGIN",
+      "entity": "USR-TL-PAY",
+      "performedBy": "Suresh Menon (TL Payments)",
+      "details": "Logged into Payments Team portal",
+      "timestamp": "2026-11-11T09:22:39.619Z"
+    },
+    {
+      "id": "AUD-1794388933234",
+      "action": "USER_LOGIN",
+      "entity": "USR-SA-01",
+      "performedBy": "Rajesh Sharma (Admin)",
+      "details": "Logged into Super Admin portal",
+      "timestamp": "2026-11-11T09:22:13.234Z"
+    },
+    {
+      "id": "AUD-1794384076704",
+      "action": "USER_LOGIN",
+      "entity": "USR-TL-KYC",
+      "performedBy": "Ananya Deshmukh (TL KYC)",
+      "details": "Logged into KYC Team portal",
+      "timestamp": "2026-11-11T08:01:16.704Z"
+    },
+    {
+      "id": "AUD-1794383547755",
+      "action": "USER_LOGIN",
+      "entity": "USR-SA-01",
+      "performedBy": "Rajesh Sharma (Admin)",
+      "details": "Logged into Super Admin portal",
+      "timestamp": "2026-11-11T07:52:27.756Z"
+    },
+    {
+      "id": "AUD-1794382534604",
+      "action": "USER_LOGIN",
+      "entity": "USR-TL-QRY",
+      "performedBy": "Kavita Patel (TL Queries)",
+      "details": "Logged into Queries Team portal",
+      "timestamp": "2026-11-11T07:35:34.604Z"
+    },
+    {
+      "id": "AUD-1794382502621",
+      "action": "USER_LOGIN",
+      "entity": "USR-TL-KYC",
+      "performedBy": "Ananya Deshmukh (TL KYC)",
+      "details": "Logged into KYC Team portal",
+      "timestamp": "2026-11-11T07:35:02.621Z"
+    },
+    {
+      "id": "AUD-1794380339200",
+      "action": "USER_LOGIN",
+      "entity": "USR-TL-KYC",
+      "performedBy": "Ananya Deshmukh (TL KYC)",
+      "details": "Logged into KYC Team portal",
+      "timestamp": "2026-11-11T06:58:59.200Z"
+    },
+    {
+      "id": "AUD-1794379994564",
+      "action": "USER_LOGIN",
+      "entity": "USR-SA-01",
+      "performedBy": "Rajesh Sharma (Admin)",
+      "details": "Logged into Super Admin portal",
+      "timestamp": "2026-11-11T06:53:14.564Z"
+    },
+    {
+      "id": "AUD-1794379937547",
+      "action": "USER_LOGIN",
+      "entity": "USR-TL-KYC",
+      "performedBy": "Ananya Deshmukh (TL KYC)",
+      "details": "Logged into KYC Team portal",
+      "timestamp": "2026-11-11T06:52:17.547Z"
+    },
+    {
+      "id": "AUD-1794379904136",
+      "action": "USER_LOGIN",
+      "entity": "USR-TL-KYC",
+      "performedBy": "Ananya Deshmukh (TL KYC)",
+      "details": "Logged in with role: KYC TL",
+      "timestamp": "2026-11-11T06:51:44.136Z"
+    },
+    {
+      "id": "AUD-1794379876367",
+      "action": "USER_LOGIN",
+      "entity": "USR-SA-01",
+      "performedBy": "Rajesh Sharma (Admin)",
+      "details": "Logged in with role: Super Admin",
+      "timestamp": "2026-11-11T06:51:16.367Z"
+    },
+    {
+      "id": "AUD-1794378031393",
+      "action": "USER_LOGIN",
+      "entity": "USR-SA-01",
+      "performedBy": "Rajesh Sharma (Admin)",
+      "details": "Logged in with role: Super Admin",
+      "timestamp": "2026-11-11T06:20:31.393Z"
+    },
+    {
+      "id": "AUD-001",
+      "action": "KYC_APPROVED",
+      "entity": "KYC-2026-1002",
+      "performedBy": "Priya Sundaram (USR-AG-KYC2)",
+      "details": "Approved Customer KYC for Sunita Mehra and dispatched to Payments queue.",
+      "timestamp": "2026-11-10T14:15:00Z"
+    },
+    {
+      "id": "AUD-002",
+      "action": "KYC_REJECTED",
+      "entity": "KYC-2026-1005",
+      "performedBy": "Priya Sundaram (USR-AG-KYC2)",
+      "details": "Rejected Delivery Partner KYC for Ganesh Shinde: Blurry Driving License scan.",
+      "timestamp": "2026-11-10T12:00:00Z"
+    },
+    {
+      "id": "AUD-003",
+      "action": "PAYMENT_RECORDED",
+      "entity": "PAY-TXN-9003",
+      "performedBy": "System Automation",
+      "details": "Customer membership ₹499 auto-recorded post KYC approval.",
+      "timestamp": "2026-11-10T14:20:00Z"
+    }
+  ],
+  "notifications": [
+    {
+      "id": "NOTIF-1794546221503",
+      "title": "KYC Resubmitted",
+      "message": "Application APP-AGT-2041 (Mohd Tariq Khan) was resubmitted for re-verification.",
+      "type": "info",
+      "read": false,
+      "timestamp": "2026-11-13T05:03:41.503Z"
+    },
+    {
+      "id": "NOTIF-1",
+      "title": "New KYC Ingestion",
+      "message": "Technician Arun Balakrishnan submitted registration details.",
+      "type": "info",
+      "read": false,
+      "timestamp": "2026-11-11T09:00:00Z"
+    },
+    {
+      "id": "NOTIF-2",
+      "title": "Payment Approval Required",
+      "message": "Vendor Cycle 2 debits scheduled for 2 accounts.",
+      "type": "warning",
+      "read": false,
+      "timestamp": "2026-11-11T08:45:00Z"
+    },
+    {
+      "id": "NOTIF-3",
+      "title": "SLA Escalation Alert",
+      "message": "Ticket TCK-8814 is pending initial review from Queries team.",
+      "type": "urgent",
+      "read": false,
+      "timestamp": "2026-11-11T09:15:00Z"
+    }
+  ]
+}
